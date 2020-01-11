@@ -1,0 +1,19 @@
+{
+  "name": "twillio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "NODE_PATH=./ node -r dotenv/config --use-strict ./index.js",
+    "pm2": "pm2 restart process.yml --update-env"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "twilio": "^3.39.1"
+  }
+}
